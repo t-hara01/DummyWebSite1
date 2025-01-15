@@ -1,0 +1,153 @@
+/* デバッグ用 */
+/* すべての要素に点線の枠線を設定 */ 
+/* あすたりすく {
+    border: 1px dotted red; 
+} */
+
+/* base */
+body {
+    background-color: #EAE5DE;
+}
+
+/* lyout */
+.header {
+    padding-top: 20px;
+}
+
+.header__header-inner {
+    width: 700px;
+    margin: 0 auto;
+    border-top: 1px solid #707070;
+    border-bottom: 1px solid #707070;
+}
+
+.hero-area {
+    height: 400px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+.hero-area__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    /* width: auto; */
+    height: 50px;
+    background-color: #656565;
+}
+
+.footer__inner {
+    width: 350px;
+    margin: 0 auto;
+}
+
+.footer__copyright {
+    text-align: center;
+    color: #EAE5DE;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.global-nav {
+    display: flex;
+    justify-content:center;
+}
+
+.global-nav__item {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+  
+.global-nav__item:last-child .global-nav__link::after {
+    content: none;
+}
+  
+.global-nav__link {
+    font-size: 20px;
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    display: block;
+    padding: 15px 5px;
+    border-bottom: 2px solid transparent;
+    color: #707070;
+    text-decoration: none;
+    transition: border-bottom-color .25s;
+}
+  
+.global-nav__link:focus,
+.global-nav__link:hover {
+    border-bottom-color: #000000;
+}
+
+.section {
+    margin-top: 33px;
+    margin-bottom: 33px;
+}
+
+.section__title {
+    font-size: 25px;
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section__description {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'arial','Hiragino Sans', 'Meiryo', sans-serif;
+    line-height: 2em;
+}
+
+.section__list-container {
+    background-color: rgba(33, 33, 33, 0.3);
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border-radius: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section__list-container__inner {
+    background-color: #FFFFFF;
+    width:96%;
+    height: auto;
+    border-radius: 10px;  
+}
+
+.section__list-container__inner ul {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.section__list-container__inner ul li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.wide-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section__link-btn {
+    font-weight: bold;
+    color: #d85959;
+}
