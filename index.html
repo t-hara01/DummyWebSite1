@@ -16,10 +16,15 @@
         <header class="header">
             <div class="header__header-utils">
                 <img class="logo" src="images/logo.png" alt="まーちゃんポヨポヨカンパニーロゴ">
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <div class="header__header-inner">
                 <nav>
-                    <ul class="global-nav">
+                    <ul class="global-nav" id="globalNav">
                         <li class="global-nav__item"><a class="global-nav__link" href="#">トップページ</a></li>
                         <li class="global-nav__item"><a class="global-nav__link" href="#">企業情報</a></li>
                         <li class="global-nav__item"><a class="global-nav__link" href="#">事例</a></li>
@@ -40,8 +45,7 @@
             <section class="section">
                 <h2 class="section__title">まーちゃんポヨポヨカンパニーとは</h2>
                 <p class="section__description">
-                    まーちゃんポヨポヨ カンパニーは<br>
-                    まめ太（茶トラ13才）が代表を務める架空の会社です<br>
+                     まめ太（茶トラ13才）が代表を務める架空の会社です<br>
                     しまね県を拠点にさまざまな取り組みを行っています
                 </p>
             </section>
@@ -78,5 +82,12 @@
             </div>
             <!-- /.footer__inner -->
         </footer>
+
+        <script>
+            document.getElementById('hamburgerMenu').addEventListener('click', function() {
+                this.classList.toggle('open');
+                document.getElementById('globalNav').classList.toggle('active');
+            });
+        </script>
     </body>
 </html>
