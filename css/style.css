@@ -309,7 +309,7 @@ body {
 
     .media {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: center;
     }
 
@@ -429,8 +429,8 @@ body {
 
     .media {
         display: flex;
-        flex-direction: column;
-        align-items: center;
+        flex-direction: row;
+        align-items: flex-start;
         margin: 20px 0;
     }
     
@@ -455,7 +455,7 @@ body {
     }
     
     .media__description {
-        font-size: 16px;
+        font-size: 20px;
         line-height: 1.5;
     }
 }
