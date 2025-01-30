@@ -159,6 +159,39 @@ body {
     font-family: 'arial','Hiragino Sans', 'Meiryo', sans-serif;
 }
 
+.case-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.case {
+    padding: 20px;
+}
+
+.case__title {
+    font-family: "Potta One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.case__description {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    font-family: 'arial','Hiragino Sans', 'Meiryo', sans-serif;
+}
+
+/* デバッグ用 */
+.case__image img {
+    width: 250px;
+}
+
 /* スマートフォン用スタイル */
 @media (max-width: 768px) {
     .hero-area {

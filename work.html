@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <title>！ダミーサイト！ まーちゃんポヨポヨカンパニー</title>
+
+        <!-- web fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__header-utils">
+                <img class="logo" src="images/logo.png" alt="まーちゃんポヨポヨカンパニーロゴ">
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="header__header-inner">
+                <nav>
+                    <ul class="global-nav" id="globalNav">
+                        <li class="global-nav__item"><a class="global-nav__link" href="#">トップページ</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="./company-information.html">企業情報</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="./work.html">事例</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="#">採用活動</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="#">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- /.header-inner -->
+        </header>
+        <main class="main">
+            <div class="case-container">
+                <div class="case">
+                    <div class="case__image">
+                        <img src="./images/ohirune.png" alt="">
+                    </div>
+                    <!-- /.case__image -->
+                    <div class="case__title">
+                        <p>おひるね活動</p>
+                    </div>
+                    <!-- /.case__title -->
+                    <div class="case__description">
+                        <p>睡眠は活動のベースとなります</p>
+                    </div>
+                    <!-- /.case__image -->
+                </div>
+                <!-- /.case -->
+                <div class="case">
+                    <div class="case__image">
+                        <img src="./images/best-place.png" alt="">
+                    </div>
+                    <!-- /.case__image -->
+                    <div class="case__title">
+                        <p>ベストプレイス発見</p>
+                    </div>
+                    <!-- /.case__title -->
+                    <div class="case__description">
+                        <p>快適なスペースを探求します</p>
+                    </div>
+                    <!-- /.case__image -->
+                </div>
+                <!-- /.case -->
+                <div class="case">
+                    <div class="case__image">
+                        <img src="./images/model.png" alt="">
+                    </div>
+                    <!-- /.case__image -->
+                    <div class="case__title">
+                        <p>モデル事業</p>
+                    </div>
+                    <!-- /.case__title -->
+                    <div class="case__description">
+                        <p>さまざまなコスチュームを用意</p>
+                    </div>
+                    <!-- /.case__image -->
+                </div>
+                <!-- /.case -->
+                <div class="case">
+                    <div class="case__image">
+                        <img src="./images/hinata.png" alt="">
+                    </div>
+                    <!-- /.case__image -->
+                    <div class="case__title">
+                        <p>日向の調査</p>
+                    </div>
+                    <!-- /.case__title -->
+                    <div class="case__description">
+                        <p>日光浴で健康維持</p>
+                    </div>
+                    <!-- /.case__image -->
+                </div>
+                <!-- /.case -->
+                <div class="case">
+                    <div class="case__image">
+                        <img src="./images/gomen.png" alt="">
+                    </div>
+                    <!-- /.case__image -->
+                    <div class="case__title">
+                        <p>ごめんね</p>
+                    </div>
+                    <!-- /.case__title -->
+                    <div class="case__description">
+                        <p>ごめん寝で癒しを提供</p>
+                    </div>
+                    <!-- /.case__image -->
+                </div>
+                <!-- /.case -->
+                <div class="case">
+                    <div class="case__image">
+                        <img src="./images/kotatu.png" alt="">
+                    </div>
+                    <!-- /.case__image -->
+                    <div class="case__title">
+                        <p>こたつ周辺の見回り</p>
+                    </div>
+                    <!-- /.case__title -->
+                    <div class="case__description">
+                        <p>こたつ周辺の警備</p>
+                    </div>
+                    <!-- /.case__image -->
+                </div>
+                <!-- /.case -->
+            </div>
+            <!-- /.case-container -->
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="footer__copyright">
+                    <p><small>© 2024 ma-chan poyopoyo co dummy</small></p>
+                </div>
+            </div>
+            <!-- /.footer__inner -->
+        </footer>
+
+        <script>
+            document.getElementById('hamburgerMenu').addEventListener('click', function() {
+                this.classList.toggle('open');
+                document.getElementById('globalNav').classList.toggle('active');
+            });
+        </script>
+    </body>
+</html>
