@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ja">
+     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="./CSS/reset.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <title>！ダミーサイト！ まーちゃんポヨポヨカンパニー</title>
+
+        <!-- web fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header__header-utils">
+                <img class="logo" src="images/logo.png" alt="まーちゃんポヨポヨカンパニーロゴ">
+                <div class="hamburger-menu" id="hamburgerMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="header__header-inner">
+                <nav>
+                    <ul class="global-nav" id="globalNav">
+                        <li class="global-nav__item"><a class="global-nav__link" href="#">トップページ</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="./company-information.html">企業情報</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="./work.html">事例</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="./recruit.html">採用活動</a></li>
+                        <li class="global-nav__item"><a class="global-nav__link" href="#">お問い合わせ</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <!-- /.header-inner -->
+        </header>
+        <main class="main">
+            <section class="section">
+                <h2 class="section__title">事業拡大につき従業員募集中！！</h2>
+                <p class="section__description">
+                    まーちゃんポヨポヨカンパニーでは<br>
+                    一緒に働いてくれる仲間を随時募集中です！！<br>
+                    <br>
+                    ◇ポヨポヨ具合に自信がある！<br>
+                    ◇仲間と成長しながら働きたい！！<br>
+                    ◇朝・夕のご飯がたべたい！！<br>
+                    <br>
+                    上記のようなご希望をお持ちの方は是非ご応募ください！！<br>
+                    連絡先：dummy@ma-chan-poyopoyo.co<br>
+                    TEL:xxx-xxxx-xxxx
+                </p>
+            </section>
+            <section class="section">
+                <h2 class="section__title">せんぱい社員からのメッセージ</h2>
+                <div class="media">
+                    <div class="media__image">
+                        <img src="./images/mugi.png" alt="むぎさんの写真">
+                    </div>
+                    <div class="media__content">
+                        <h2 class="media__title">⚪︎年度入社　むぎさん</h2>
+                        <p class="media__description">
+                            最初はなかなか職場になれること<br>
+                            ができなくて悩んだ時もありましたが<br>
+                            今ではとても楽しく働けています。<br>
+                            大声で鳴くことと炊飯器でおしりを温める<br>
+                            ことにハマっています
+                        </p>
+                    </div>
+                    <!-- /.media__content -->
+                </div>
+                <!-- /.media -->
+                <div class="media">
+                    <div class="media__image">
+                        <img src="./images/haku.png" alt="ハクさんの写真">
+                    </div>
+                    <div class="media__content">
+                        <h2 class="media__title">⚪︎年度入社　ハクさん</h2>
+                        <p class="media__description">
+                            さまざまな業務を任せていただき<br>
+                            日々成長の毎日です！！<br>
+                            ご飯をすごい勢いで食べて<br>
+                            いろんなところに吐いて回るのが得意です！
+                        </p>
+                    </div>
+                    <!-- /.media__content -->
+                </div>
+                <!-- /.media -->
+                <div class="media">
+                    <div class="media__image">
+                        <img src="./images/sabi.png" alt="ちゃび子さんの写真">
+                    </div>
+                    <div class="media__content">
+                        <h2 class="media__title">⚪︎年度入社　ちゃび子さん</h2>
+                        <p class="media__description">
+                            焼き鳥をもらったことをきっかけに<br>
+                            入社を決意しました。<br>
+                            人間に絶対にみつからない場所に隠れるのに<br>
+                            ハマっています。
+                        </p>
+                    </div>
+                    <!-- /.media__content -->
+                </div>
+                <!-- /.media -->
+                <div class="media">
+                    <div class="media__image">
+                        <img src="./images/puku.png" alt="ぷっぷくさんの写真">
+                    </div>
+                    <div class="media__content">
+                        <h2 class="media__title">⚪︎年度入社　ぷっぷくさん</h2>
+                        <p class="media__description">
+                            先輩社員の方におこられることもありますが<br>
+                            日々頑張って業務を覚えています。<br>
+                            人間のつま先をかじりながら寝ます。
+                        </p>
+                    </div>
+                    <!-- /.media__content -->
+                </div>
+                <!-- /.media -->
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__inner">
+                <div class="footer__copyright">
+                    <p><small>© 2024 ma-chan poyopoyo co dummy</small></p>
+                </div>
+            </div>
+            <!-- /.footer__inner -->
+        </footer>
+
+        <script>
+            document.getElementById('hamburgerMenu').addEventListener('click', function() {
+                this.classList.toggle('open');
+                document.getElementById('globalNav').classList.toggle('active');
+            });
+        </script>
+    </body>
+</html>
