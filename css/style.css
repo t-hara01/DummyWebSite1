@@ -276,6 +276,7 @@ body {
     }
 
     .global-nav.active {
+        padding: 20px;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -298,6 +299,7 @@ body {
     .global-nav__link {
         font-size: 24px;
         color: #fff;
+        display:inline;
     }
 
     .section {
