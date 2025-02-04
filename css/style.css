@@ -1,15 +1,7 @@
-/* デバッグ用 */
-/* すべての要素に点線の枠線を設定 */ 
-* {
-    border: 1px dotted red; 
-}
-
-/* base */
 body {
     background-color: #EAE5DE;
 }
 
-/* lyout */
 .header {
     padding-top: 20px;
 }
@@ -34,7 +26,6 @@ body {
 }
 
 .footer {
-    /* width: auto; */
     height: 50px;
     background-color: #656565;
 }
@@ -120,7 +111,6 @@ body {
     background-color: #ffffff;
 }
 
-/* メディア部品のスタイル */
 .media {
     display: flex;
     align-items: center;
@@ -187,7 +177,6 @@ body {
     font-family: 'arial','Hiragino Sans', 'Meiryo', sans-serif;
 }
 
-/* デバッグ用 */
 .case__image img {
     width: 250px;
 }
@@ -265,9 +254,9 @@ body {
 
     .hamburger-menu {
         display: flex; /* スマホ表示では表示 */
-        position: absolute; /* 固定表示 */
-        top: 20px; /* 上部からの位置 */
-        right: 20px; /* 右側からの位置 */
+        position: absolute;
+        top: 20px;
+        right: 20px;
         z-index: 3; /* メニューより上に表示 */
     }
 
@@ -373,8 +362,6 @@ body {
     }
 
     .media__image {
-        /* margin-right: 0;
-        margin-bottom: 20px; */
         margin: auto;
     }
 
@@ -495,7 +482,6 @@ body {
     
     .media__image {
         flex: 1;
-        /* margin-right: 20px; */
         margin: auto;
     }
     
