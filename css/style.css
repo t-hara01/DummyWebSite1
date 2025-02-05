@@ -118,7 +118,6 @@ body {
 }
 
 .media__image {
-    /* flex: 1; */
     margin-right: 20px;
 }
 
@@ -126,10 +125,6 @@ body {
     width: 100%;
     height: auto;
     display: block;
-}
-
-.media__content {
-    /* flex: 2; */
 }
 
 .media__title {
@@ -373,7 +368,6 @@ body {
     }
 
     .media__content {
-        /* flex: 2; */
         margin: auto;
     }
 }
@@ -482,17 +476,12 @@ body {
     }
     
     .media__image {
-        /* flex: 1; */
         max-width: 500px;
     }
     
     .media__image img {
         width: 400px;
         display: block;
-    }
-    
-    .media__content {
-        /* flex: 2; */
     }
     
     .media__title {
