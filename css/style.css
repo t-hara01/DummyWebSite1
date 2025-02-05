@@ -118,7 +118,7 @@ body {
 }
 
 .media__image {
-    flex: 1;
+    /* flex: 1; */
     margin-right: 20px;
 }
 
@@ -129,7 +129,7 @@ body {
 }
 
 .media__content {
-    flex: 2;
+    /* flex: 2; */
 }
 
 .media__title {
@@ -373,7 +373,7 @@ body {
     }
 
     .media__content {
-        flex: 2;
+        /* flex: 2; */
         margin: auto;
     }
 }
@@ -477,12 +477,13 @@ body {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
+        justify-content: center;
         margin: 20px 0;
     }
     
     .media__image {
-        flex: 1;
-        margin: auto;
+        /* flex: 1; */
+        max-width: 500px;
     }
     
     .media__image img {
@@ -491,7 +492,7 @@ body {
     }
     
     .media__content {
-        flex: 2;
+        /* flex: 2; */
     }
     
     .media__title {
